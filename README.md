@@ -1,6 +1,6 @@
 # 100 Days of React
 
-This is a log of my #100daysofreact.
+This is a log of my 100daysofreact.
 
 I'll be working on a large React based application for the next 3 months. While I kinda get React, I feel like this is my opportunity to go really deep and understand it beyond the surface.
 
