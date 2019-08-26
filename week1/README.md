@@ -14,15 +14,15 @@ While working on a little todo app, I had serious issues with deciding which com
 
 These are some jottings from the tutorial. 
 
-TypeScript gives us Strings, Number, Boolean, Array, Any, Void, Null, Tuple, Enum, Generics.
+TypeScript gives us `Strings`, `Number`, `Boolean`, `Array`, `Any`, `Void`, `Null`, `Tuple`, `Enum`, `Generics`.
 
-Any: Can be any type
-Void: No type returned
-Tuple: Array with fixed number of elements
-Enum: Enumerated values
-Generics: Constraints for some types
+- **Any**: Can be any type
+- **Void**: No type returned
+- **Tuple**: Array with fixed number of elements
+- **Enum**: Enumerated values
+- **Generics**: Constraints for some types
 
-Typescript gives us class based objects, properties, methods, Encapsulation, Inheritance, access modifiers.
+Typescript gives us `class based objects`, `properties`, `methods`, `encapsulation`, `Inheritance`, `access modifiers`.
 
 Typescript files need to be transpiled into .js files. We need TSC to transpile .ts to .js.
 
@@ -103,7 +103,7 @@ interface UserInterface {
     email: string;
     register();
     payInvoice();
-    }
+}
 
 
 Class User implements UserInterface {}
