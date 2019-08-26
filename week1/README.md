@@ -1,5 +1,5 @@
 # Day 1
-##What I worked on
+## What I worked on
 I worked on lorem ipsum
 
 ## A few challenges
