@@ -176,6 +176,6 @@ submitForm = (event:FormEvent<HTMLFormElement>) => {
 Have a great day and checkout [day 1](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-1). 
 
 **useful links**
-[Typesafe Event Emitter](https://basarat.gitbooks.io/typescript/docs/tips/typed-event.html)
+- [Typesafe Event Emitter](https://basarat.gitbooks.io/typescript/docs/tips/typed-event.html)
 
-[TypeScript and React: Events](https://fettblog.eu/typescript-react/events/)
+- [TypeScript and React: Events](https://fettblog.eu/typescript-react/events/)
