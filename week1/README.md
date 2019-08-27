@@ -139,7 +139,7 @@ handleChange = (event) => {
 // other boilerplate react code
 ```
 
-This gives an error because the type of event on the handleChange function isn't provided. TypeScript wants to be sure about the type of event passed. Here's how I solved it
+This gives an error because the type of `event` on the `handleChange` function isn't provided. TypeScript wants to be sure about the type of event passed. Here's how I solved it...
 
 ### What I learned
 The browser (JavaScript) engine gives us basic events. We can get them by running `event.type`. React extends those events and puts them in the `React.syntheticEvent` variable. TypeScript wants us to provide the type of the `event` provided to us by React.
@@ -173,4 +173,9 @@ submitForm = (event:FormEvent<HTMLFormElement>) => {
 </form>
 ```
 
-Have a great day and checkout [day 1]().
+Have a great day and checkout [day 1](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-1). 
+
+**useful links**
+[Typesafe Event Emitter](https://basarat.gitbooks.io/typescript/docs/tips/typed-event.html)
+
+[TypeScript and React: Events](https://fettblog.eu/typescript-react/events/)
