@@ -110,3 +110,67 @@ Class User implements UserInterface {}
 ```
 
 - Methods of classes can also be defined in interfaces.
+
+---
+
+## Day 2
+
+### What I worked on
+A todo App🙈. Will share a link tomorrow
+
+### Challenges 
+I spent a lot of time with React-specific Typescript event types. I knew nothing of them before now. 
+
+Here's the issue...
+If I write normal React code as so
+
+```js
+// other boilerplate react code
+
+handleChange = (event) => {
+    this.setState({
+        value: event.target.value
+    })
+}
+
+
+<Input type="text" value={this.state.value} onChange={this.handleChange}/>
+
+// other boilerplate react code
+```
+
+This gives an error because the type of event on the handleChange function isn't provided. TypeScript wants to be sure about the type of event passed. Here's how I solved it
+
+### What I learned
+The browser (JavaScript) engine gives us basic events. We can get them by running `event.type`. React extends those events and puts them in the `React.syntheticEvent` variable. TypeScript wants us to provide the type of the `event` provided to us by React.
+
+For the Input element of my todoList, I made use of the `React.changeEvent<HTMLInputElement>` which gives us the appropraite type for the Input change event. 
+
+For the form element, I provided a `React.FormEvent<HTMLFormElement>` which is most appropraite for `form` elements. 
+
+My errors then disappear when I update the code like so
+
+```js
+handleChange = (event:React.changeEvent<HTMLInputElement>) => {
+    this.setState({
+        value: event.target.value
+    })
+}
+
+
+<Input type="text" value={this.state.value} onChange={this.handleChange}/>
+```
+
+This also applies to forms.
+```js
+
+submitForm = (event:FormEvent<HTMLFormElement>) => {
+    {handler body}
+}
+
+<form onSubmit={this.submitForm}>
+    {form Body}
+</form>
+```
+
+Have a great day and checkout [day 1]().
