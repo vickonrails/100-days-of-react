@@ -213,5 +213,7 @@ render(){
 
 ```
 
+More about controlled components [here](https://reactjs.org/docs/uncontrolled-components.html)
+
 I also learned about routing with React Router and I'll try to do a little demo app with it tomorrow. 
 Have a great day and checkout [day 2](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-2). 
