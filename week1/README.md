@@ -179,3 +179,39 @@ Have a great day and checkout [day 1](https://github.com/vickOnRails/100-days-of
 - [Typesafe Event Emitter](https://basarat.gitbooks.io/typescript/docs/tips/typed-event.html)
 
 - [TypeScript and React: Events](https://fettblog.eu/typescript-react/events/)
+
+## Day 3
+
+### What I worked on
+Unfinished Pokemon App 🙇‍ following [this tutorials](https://www.youtube.com/watch?v=0_C2X1yRRac) and [Burger builder](https://github.com/vickOnRails/Burger-App) app following [this course](https://www.udemy.com/react-the-complete-guide-incl-redux/).
+
+### Challenges 
+I was trying to use `refs` to declaratively find an element in the DOM. Plus Typescript kept frustrating me with event types. I wish there was a place where I could find all HTML related TypeScript events. 
+
+### Learnings
+I also learned about controlled and uncontrolled elements. Controlled React components have their state managed by React while uncontrolled components have their state controlled by the DOM.
+
+A typical example is an `input` element. The React docs recommends that all form elements be controlled by React. So it's conventional to see people manage `input` value in state. We make the `input` element controlled by doing this. On the other hand, we could just let the DOM handle the state of the `input` like it does in vanilla HTML/JS. This then makes the component uncontrolled and we wouldn't need to store the `input` value in the state. 
+
+Here's how to identify an element with refs. Refs are more suitable for class components 
+
+```js
+class App extends Component {
+
+constructor(props){
+  super(props);
+  state = {}
+  const inputRef = React.createRef();
+  }
+}
+
+render(){
+  return (
+  <input ref={this.inputRef}/>
+ )
+}
+
+```
+
+I also learned about routing with React Router and I'll try to do a little demo app with it tomorrow. 
+Have a great day and checkout [day 2](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-2). 
