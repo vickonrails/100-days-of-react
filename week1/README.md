@@ -221,7 +221,7 @@ Have a great day and checkout [day 2](https://github.com/vickOnRails/100-days-of
 ## Day 4
 
 ## What I worked on
-I made a very [little app](https://github.com/vickOnRails/purple-blog) that fetched posts from the [jsonplaceholder](https://jsonplaceholder.typicode.com) API. I called it [purple-blog](https://purple-blog.netlify.com/). You can take a look at the source code [here](). Funny name, but got the job done.
+I made a very [little app](https://github.com/vickOnRails/purple-blog) that fetched posts from the [jsonplaceholder](https://jsonplaceholder.typicode.com) API. I called it [purple-blog](https://purple-blog.netlify.com/). While I'm not yet done, you can take a look at the source code [here](). Funny name, but got the job done.
 
 It's built with React & Typescript.
 
