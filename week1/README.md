@@ -227,7 +227,7 @@ It's built with React & Typescript.
 
 ## What Challenges I faced
 Deploying to netlify was tricky. 
-I have a couple of static sites hosted on netlify, but this was my first react app. I struggled to properlyy configure my `netlify.toml`file. 
+I have a couple of static sites hosted on netlify, but this was my first react app. I struggled to properly configure my `netlify.toml`file. 
 
 I also spent 10 mins trying to find an error because I installed `@types/react-router-dom` without installing `react-router-dom`🤣🤣🤣.
 
@@ -268,4 +268,5 @@ import classes from './Component.module.css';
 <Input className={classes.Input}/>
 ```
 This is assuming we have `.Input` as a CSS selector.
+
 Have a great day and checkout [day 3](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-3). 
