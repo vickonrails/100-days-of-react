@@ -217,3 +217,55 @@ More about controlled components [here](https://reactjs.org/docs/uncontrolled-co
 
 I also learned about routing with React Router and I'll try to do a little demo app with it tomorrow. 
 Have a great day and checkout [day 2](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-2). 
+
+## Day 4
+
+## What I worked on
+I made a very [little app](https://github.com/vickOnRails/purple-blog) that fetched posts from the [jsonplaceholder](https://jsonplaceholder.typicode.com) API. I called it [purple-blog](https://purple-blog.netlify.com/). You can take a look at the source code [here](). Funny name, but got the job done.
+
+It's built with React & Typescript.
+
+## What Challenges I faced
+Deploying to netlify was tricky. 
+I have a couple of static sites hosted on netlify, but this was my first react app. I struggled to properlyy configure my `netlify.toml`file. 
+
+I also spent 10 mins trying to find an error because I installed `@types/react-router-dom` without installing `react-router-dom`🤣🤣🤣.
+
+## What I learned
+- I learned to properly configure my `netlify.toml` file so Netlify could build the files correctly and most importantly, locate my `/build` folders containing my static `HTML` and other files.
+
+- I finally understood how `.gitignore` files work. You basically put the path to the folders you don't want to commit, and `git` ignores them. 
+
+- Typescript trows an error when you save a file without exporting something. It will give the following error. 
+
+
+**All files must be modules when the '--isolatedModules' flag is provided.**
+
+
+I tried turning the `isolatedModules` flag off (setting it to false), but Typescript trew another about `true`  being the recommended option. 
+
+- Everything worked immediately I created empty functional components that exported nothing. 
+
+- Also learned that by type safing our state like so, we ensure we don't mutate it directly
+
+```js
+interface IState {
+    ...
+}
+
+state: ReadOnly<IState> = {}
+```
+
+I also learned CRA has native support for CSS modules and we can use them by naming them like so `Component.modules.css`.
+
+We can then import them and use them to style components like so
+
+```js
+//Every other import
+import classes from './Component.module.css';
+
+//use them in the component
+<Input className={classes.Input}/>
+```
+This is assuming we have `.Input` as a CSS selector.
+Have a great day and checkout [day 3](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-3). 
