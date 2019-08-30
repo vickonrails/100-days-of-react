@@ -270,3 +270,23 @@ import classes from './Component.module.css';
 This is assuming we have `.Input` as a CSS selector.
 
 Have a great day and checkout [day 3](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-3). 
+
+---
+## Day 5
+
+- ### What I worked on
+Implemented basic routing on [purple-blog](https://purple-blog.netlify.com)
+
+- ### What Challenges I faced
+Nothing really. Was a smooth ride today/
+
+- ### What I learned
+I learned about the `switch` component that tells other `Route` components to return only the first component that matches the `path`.
+
+```js
+<Switch>
+    <Route route="/" component={Home}/>
+    <Route route="/posts" component={Posts}/>
+</Switch>
+
+Have a great day and checkout [day 4](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-4). 
