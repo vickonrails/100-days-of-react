@@ -288,5 +288,35 @@ I learned about the `switch` component that tells other `Route` components to re
     <Route route="/" component={Home}/>
     <Route route="/posts" component={Posts}/>
 </Switch>
+```
 
 Have a great day and checkout [day 4](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-4). 
+
+## Day 6
+
+### What I worked on
+Today, I rewrote a HTML landing page in React.
+
+### What Challenges I faced
+Since React renders to a `root` id element, editing meta-data is practically impossible. 
+
+This was important since meta data and other `<head>` information needed to be edited as the user changed routes.
+
+The [react docs](https://create-react-app.dev/docs/title-and-meta-tags) recommended a few methods involving the server. This wasn't a feasible choice as I have no control over the server.
+
+But there's great news
+
+### What I learned
+I found [Helmet](https://helmetjs.github.io/). Helmet is a react library that helps populate meta tags and other information in the head of a webpage.
+
+There're a few other libraries that do this too 
+- [React Meta tags](https://www.npmjs.com/package/react-meta-tags)
+- [React Document Meta](https://github.com/kodyl/react-document-meta)
+
+Also, Github has been notifying me of security vulnerabilities lately. I thought it was a bug, but I discovered it only happens when I run `npm audit fix` after `npm install`.
+
+So `npm audit` checks packages for security vulnerabilities and `npm audit fix` will attempt to fix them.
+
+I plan to continue working on [purple-blog](https://purple-blog.netlify.com) tomorrow.
+
+Have a great day and checkout [day 5](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-5). 
