@@ -23,3 +23,4 @@ So let's get started...
 [day 4](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-4) |
 [day 5](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-5) | 
 [day 6](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-6) | 
+[day 7](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-7) | 

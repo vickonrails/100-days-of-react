@@ -320,3 +320,29 @@ So `npm audit` checks packages for security vulnerabilities and `npm audit fix` 
 I plan to continue working on [purple-blog](https://purple-blog.netlify.com) tomorrow.
 
 Have a great day and checkout [day 5](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-5). 
+
+## Day 7
+
+### What I worked on
+Today, I set up a demo to explore [Devexpress react grid](https://devexpress.github.io/devextreme-reactive/react/grid/docs/guides/getting-started/) for rendering tables in react. Demo [here](https://dx-tables.netlify.com/)
+
+### What Challenges I faced
+Nothing unusual. 
+In fact, I was wowed at how well documentated and easy it was to get started.
+One challenge I'm facing currently is time. Working a full time job with some other side projects can be crazy. I would love to dedicate more time to the exercise. 
+
+Hopefully, I'll do better next week.
+
+### What I learned
+While installing the pakages, I learned about [scoped packages]. They are packages that are namespaced and have `@` sign in front of them. 
+Take for example 
+
+```js
+npm install @types/react-router-dom
+```
+
+`@types` here is namespaced. Any package that begins with `@types` only comes from the owners of the `type` repo. This is cool because developers can know which packages are official. In Angular, there's also things like `@angular/router`.
+
+I also couldn't finish work on the purple blog today, hopefully, I'll do that tomorrow. 
+
+Have a great day and checkout [day 6](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-6). 
