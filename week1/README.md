@@ -334,7 +334,7 @@ One challenge I'm facing currently is time. Working a full time job with some ot
 Hopefully, I'll do better next week.
 
 ### What I learned
-While installing the pakages, I learned about [scoped packages]. They are packages that are namespaced and have `@` sign in front of them. 
+While installing the pakages, I learned about [scoped packages](https://docs.npmjs.com/about-scopes). They are packages that are namespaced and have `@` sign in front of them. 
 Take for example 
 
 ```js
