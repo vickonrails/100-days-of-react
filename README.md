@@ -18,7 +18,8 @@ Each day will be organised into
 
 So let's get started...
 
-#week 1
+# week 1
+
 [Day 1](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-1) |
 [Day 2](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-2) |
 [Day 3](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-3) |
@@ -27,7 +28,7 @@ So let's get started...
 [day 6](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-6) |
 [day 7](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-7) |
 
-#week 2
+# week 2
 
 [day 8](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-8) |
 [day 9](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-9) |
