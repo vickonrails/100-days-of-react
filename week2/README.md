@@ -160,4 +160,4 @@ We can ultimately solve this by adding the `exact` keyword to the first `Route` 
 
 This will ensure the `Tabs` component show only when we're on the `/pages` tab.
 
-Have a great day and checkout [day 8](https://github.com/vickOnRails/100-days-of-react/tree/master/week1#day-8).
+Have a great day and checkout [day 8](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-8).
