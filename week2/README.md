@@ -161,3 +161,17 @@ We can ultimately solve this by adding the `exact` keyword to the first `Route` 
 This will ensure the `Tabs` component show only when we're on the `/pages` tab.
 
 Have a great day and checkout [day 8](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-8).
+
+## Day 10
+
+### What I worked on
+
+I completed the routes for the [Purple Blog](https://purple-blog.netlify.com).
+
+### What Challenges I faced
+
+Nothing challenging today
+
+### What I learned
+
+I read the official react docs. More about lifting the `state` to coommon components above the screen.
