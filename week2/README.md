@@ -175,3 +175,4 @@ Nothing challenging today
 ### What I learned
 
 I read the official react docs. More about lifting the `state` to coommon components above the screen.
+Have a great day and checkout [day 9](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-9).
