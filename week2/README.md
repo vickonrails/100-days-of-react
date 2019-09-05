@@ -193,7 +193,7 @@ I read the react docs today and here's what I learned...
 
 React works by saving the structure of the DOM (Tree) and comparing it to new ones when state changes.
 
-React begins this comparison from the root element. If root element of compared trees structures are the different, (More like <a> and <li>), react destroys the old tree and mounts the new one.
+React begins this comparison from the root element. If root element of compared trees structures are the different, (More like an `a` and `li`), react destroys the old tree and mounts the new one.
 
 The `ComponentWillUnmount` lifecycle method of the old tree fires and `componentWillMount` of the new tree will then fire.
 
