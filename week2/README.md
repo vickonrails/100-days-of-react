@@ -176,3 +176,80 @@ Nothing challenging today
 
 I read the official react docs. More about lifting the `state` to coommon components above the screen.
 Have a great day and checkout [day 9](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-9).
+
+## Day 11
+
+### What I worked on
+
+I started working on a project to recreate a hotel booking application in React. Checkout the repo [here](https://github.com/vickOnRails/Hotel-resorts)
+
+### What Challenges I faced
+
+I wanted to do some work with Tabs. I thought I could find an already made component Tab component in React. Unfortunately, I couldn't find any and will have to write one myself.
+
+### What I learned
+
+I read the react docs today and here's what I learned...
+
+React works by saving the structure of the DOM (Tree) and comparing it to new ones when state changes.
+
+React begins this comparison from the root element. If root element of compared trees structures are the different, (More like <a> and <li>), react destroys the old tree and mounts the new one.
+
+The `ComponentWillUnmount` lifecycle method of the old tree fires and `componentWillMount` of the new tree will then fire.
+
+After the new component has mounted, `componentDidMount` fires on the new tree, Any component below the tree will also get re-rendered too.
+
+#### DOM elements of the same type.
+
+When React encounters a change in data between DOM elements of the same type, it checks the attributes and if differences exist, it changes the exact attributes that has changed.
+
+React is very specific. Take the example below; assuming the component changes from state 1 to state 2, React will only change the color property to green.
+
+```js
+//state 1
+<div style={{color: 'red', fontWeight: 'bold'}} />
+
+//state 2
+<div style={{color: 'green', fontWeight: 'bold'}} />
+```
+
+#### Component Elements
+
+When components are the same, react maintains the original instance of the component across renders and updates the `props` to match the change in data. It will call `componentWillReceiveProps()` and `componentWillUpdate()` on the underlying instance
+
+I also learned about `React.Fragment` that acts as a container for multiple elements without creating extra `divs`. You should be familiar with this situation
+
+```js
+return (
+  <div>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+  </div>
+);
+```
+
+But with `React.Fragment`, we could simply do
+
+```js
+return (
+  <>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+  </>
+);
+```
+
+or
+
+```js
+return (
+  <React.Fragment>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+  </React.Fragment>
+);
+```
+
+This way, we won't introduce extra `divs` in our components.
+
+Have a great day and checkout [day 10](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-10).
