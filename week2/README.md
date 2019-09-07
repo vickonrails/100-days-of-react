@@ -254,7 +254,7 @@ This way, we won't introduce extra `divs` in our components.
 
 Have a great day and checkout [day 10](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-10).
 
-## Day 11
+## Day 12
 
 ### What I worked on
 
@@ -262,13 +262,13 @@ Didn't write any React code except at the office
 
 ### Challenges faced
 
-I was still searching for a very customizable `Tabs` component in React, after which I decided to make use of React Router to implement the tabs
+I was still searching for a very customizable `Tabs` component in React, after which I decided to implement tabs with React Router
 
 ### What I learned
 
-I learned
+I learned about React Router's `NavLink` component. It's like a replacement for the `Link` component but has the affordance of styling the active link. It's more suitable for things like tabs and navs.
 
-## Day 12
+## Day 13
 
 ### What I worked on
 
@@ -276,8 +276,8 @@ Started working on [1millionAfrica](noname.netlify.com) to curate all African co
 
 ### Challenges faced
 
-Making a large table responsive on mobile. There were a few libraries that rendered data tables without resorting to scroll on mobile. I found this awesome blogpost by [Chris Coyer]() on [CSSTricks]()
+Making a large table responsive on mobile. There were a few libraries that rendered data tables without resorting to scroll on mobile. I found this awesome blogpost on [CSSTricks](https://css-tricks.com/responsive-data-table-roundup/) and was able to come up with a solution
 
 ### What I learned
 
-I learned
+Nothing I can think of at the moment.
