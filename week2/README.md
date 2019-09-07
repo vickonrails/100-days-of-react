@@ -253,3 +253,31 @@ return (
 This way, we won't introduce extra `divs` in our components.
 
 Have a great day and checkout [day 10](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-10).
+
+## Day 11
+
+### What I worked on
+
+Didn't write any React code except at the office
+
+### Challenges faced
+
+I was still searching for a very customizable `Tabs` component in React, after which I decided to make use of React Router to implement the tabs
+
+### What I learned
+
+I learned
+
+## Day 12
+
+### What I worked on
+
+Started working on [1millionAfrica](noname.netlify.com) to curate all African companies that have raised above \$1million in 2019.
+
+### Challenges faced
+
+Making a large table responsive on mobile. There were a few libraries that rendered data tables without resorting to scroll on mobile. I found this awesome blogpost by [Chris Coyer]() on [CSSTricks]()
+
+### What I learned
+
+I learned
