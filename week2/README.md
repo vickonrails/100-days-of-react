@@ -254,6 +254,8 @@ This way, we won't introduce extra `divs` in our components.
 
 Have a great day and checkout [day 10](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-10).
 
+---
+
 ## Day 12
 
 ### What I worked on
@@ -268,16 +270,43 @@ I was still searching for a very customizable `Tabs` component in React, after w
 
 I learned about React Router's `NavLink` component. It's like a replacement for the `Link` component but has the affordance of styling the active link. It's more suitable for things like tabs and navs.
 
+Have a great day and checkout [day 11](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-11).
+
+---
+
 ## Day 13
 
 ### What I worked on
 
-Started working on [1millionAfrica](noname.netlify.com) to curate all African companies that have raised above \$1million in 2019.
+Started working on [1millionAfrica](one-million-africa.netlify.com) to curate all African companies that have raised above \$1million in 2019.
 
 ### Challenges faced
 
-Making a large table responsive on mobile. There were a few libraries that rendered data tables without resorting to scroll on mobile. I found this awesome blogpost on [CSSTricks](https://css-tricks.com/responsive-data-table-roundup/) and was able to come up with a solution
+Making a large table responsive on mobile.
+There were a few libraries that rendered data tables without resorting to scroll on mobile. I found this awesome blogpost on [CSSTricks](https://css-tricks.com/responsive-data-table-roundup/) and was able to come up with a solution
 
 ### What I learned
 
 Nothing I can think of at the moment.
+
+Have a great day and checkout [day 12](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-12).
+
+---
+
+## Day 14
+
+### What I worked on
+
+Continued working on [1millionAfrica](one-million-africa.netlify.com). Things are beginning to take shape but the tables are not yet responsive on mobile. I hope to fix that tomorrow.
+
+### Challenges faced
+
+Sorting the table was a challenge for me.
+
+I want people to navigate the table data as fast as possible, so I loaded a json data with all entries and called `setState` with search queries to return rows that match. I this is a hacky way (which works) plus, I could replace it when I learn about a better way.
+
+### What I learned
+
+Nothing new.
+
+Have a great day and checkout [day 13](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-13).
