@@ -278,7 +278,7 @@ Have a great day and checkout [day 11](https://github.com/vickOnRails/100-days-o
 
 ### What I worked on
 
-Started working on [1millionAfrica](one-million-africa.netlify.com) to curate all African companies that have raised above \$1million in 2019.
+Started working on [1millionAfrica](https://one-million-africa.netlify.com) to curate all African companies that have raised above \$1million in 2019.
 
 ### Challenges faced
 
@@ -297,7 +297,7 @@ Have a great day and checkout [day 12](https://github.com/vickOnRails/100-days-o
 
 ### What I worked on
 
-Continued working on [1millionAfrica](one-million-africa.netlify.com). Things are beginning to take shape but the tables are not yet responsive on mobile. I hope to fix that tomorrow.
+Continued working on [1millionAfrica](https://one-million-africa.netlify.com). Things are beginning to take shape but the tables are not yet responsive on mobile. I hope to fix that tomorrow.
 
 ### Challenges faced
 
