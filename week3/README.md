@@ -33,3 +33,17 @@ The `render` attribute will have to return a component that carries the props.
 This way, we can pass data to `Route` children without losing our souls.
 
 Have a great day and checkout [day 14](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-14).
+
+## Day 16
+
+### What I worked on
+
+I read some part of the Advanced React Docs.
+
+### A few challenges
+
+No challenge today. Except still struggling to find time for the exercise.
+
+### What I learned
+
+Learned more about forwarding `refs` today. See more at [link](https://reactjs.org/docs/forwarding-refs.html)
