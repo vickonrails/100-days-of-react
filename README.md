@@ -37,3 +37,7 @@ So let's get started...
 [day 12](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-12) |
 [day 13](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-13) |
 [day 14](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-14) |
+
+# week 3
+
+[day 15](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-15) |
