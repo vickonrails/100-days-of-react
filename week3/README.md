@@ -30,6 +30,6 @@ The `render` attribute will have to return a component that carries the props.
     <Route to="/" render={(props)=><Component {...props} attr={value}>}/>
 ```
 
-This way, we can pass data to `Route` children withou loosing our soul.
+This way, we can pass data to `Route` children without losing our souls.
 
 Have a great day and checkout [day 14](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-14).
