@@ -87,7 +87,7 @@ One way to do this with React is to use the `React.lazy` funtion wrapped by a `S
 Before
 
 ```js
-import Home from './Home't
+import Home from "./Home";
 ```
 
 With Code Splitting
@@ -136,3 +136,5 @@ const App = () => (
 ```
 
 NB: `React.lazy` only works with default exports.
+
+Have a great day and checkout [day 18](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-18).
