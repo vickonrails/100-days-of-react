@@ -41,3 +41,5 @@ So let's get started...
 # week 3
 
 [day 15](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-15) |
+Not Today😁 |
+[day 17](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-17).

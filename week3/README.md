@@ -48,6 +48,8 @@ No challenge today. Except still struggling to find time for the exercise.
 
 Learned more about forwarding `refs` today. See more at [link](https://reactjs.org/docs/forwarding-refs.html)
 
+Have a great day and checkout [day 15](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-15).
+
 ## Day 17
 
 Was too tired after work, missed today😁
@@ -87,7 +89,7 @@ One way to do this with React is to use the `React.lazy` funtion wrapped by a `S
 Before
 
 ```js
-import Home from "./Home";
+import SomeComponent from "./SomeComponent";
 ```
 
 With Code Splitting
@@ -137,4 +139,4 @@ const App = () => (
 
 NB: `React.lazy` only works with default exports.
 
-Have a great day and checkout [day 18](https://github.com/vickOnRails/100-days-of-react/tree/master/week2#day-18).
+Have a great day and checkout [day 16](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-16).
