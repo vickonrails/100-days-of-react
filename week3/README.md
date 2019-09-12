@@ -54,15 +54,15 @@ Was too tired after work, missed today😁
 
 ## Day 18
 
-## what I worked on
+### what I worked on
 
 I read some part of the official React Docs
 
-## A few challenges
+### A few challenges
 
 None really
 
-## What I learned
+### What I learned
 
 I learned about Code Splitting in React.
 
