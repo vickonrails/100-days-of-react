@@ -8,7 +8,7 @@ I'll be working as a UX Engineer on a large React based application for the next
 
 I really don't want to set rules😅.
 
-But documenting my learnings in a helpful requires I define rules upfront. Rules that'll help me put actionable learnings front and center of the experiment.
+But documenting my learnings in a helpful way requires I define rules upfront. Rules that'll help me put actionable learnings front and center of the experiment.
 
 Each day will be organised into
 
