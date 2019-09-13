@@ -143,7 +143,7 @@ Have a great day and checkout [day 16](https://github.com/vickOnRails/100-days-o
 
 ---
 
-## Day 18
+## Day 19
 
 ### What I worked on
 
@@ -177,6 +177,6 @@ I learned about events in [SyntheticEvents](https://reactjs.org/docs/events.html
 
 I also learned about event pooling and how ReactJs makes use of the `SyntheticEvents` to ensure performance gains. I guess more on that tomorrow.
 
-Have a great day and checkout [day 17](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-17).
+Have a great day and checkout [day 18](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-18).
 
 ---
