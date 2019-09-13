@@ -140,3 +140,43 @@ const App = () => (
 NB: `React.lazy` only works with default exports.
 
 Have a great day and checkout [day 16](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-16).
+
+---
+
+## Day 18
+
+### What I worked on
+
+I completed the [one million Africa site](https://one-million-africa.netlify.com)
+
+### A few challenges
+
+I tried converting an `uncontrolled` components to `controlled` one. Since I had lots of input fields in [one-million-africa](https://one-million-africa.netlify.com), I wanted to house `state` for them all in one object. Like this
+
+```js
+state = {
+  inputValues: {
+    inputOne: "",
+    inputTwo: "",
+    inputThree: ""
+  }
+};
+```
+
+This would change the way I `setState`
+
+```js
+this.setState(inputValue: { inputOne: ''})
+```
+
+This is taking too much time to resolve. I'll share how I got over it tomorrow.
+
+### What I learned
+
+I learned about events in [SyntheticEvents](https://reactjs.org/docs/events.html) in React. They are React's implementation of native browser events; essential a cross browser wrapper that exposed all the properties and functions of the original browser events. So you can pretty much do stuff like `e.preventDefault()` and `e.stopPropagation()`.
+
+I also learned about event pooling and how ReactJs makes use of the `SyntheticEvents` to ensure performance gains. I guess more on that tomorrow.
+
+Have a great day and checkout [day 17](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-17).
+
+---
