@@ -175,8 +175,46 @@ This is taking too much time to resolve. I'll share how I got over it tomorrow.
 
 I learned about events in [SyntheticEvents](https://reactjs.org/docs/events.html) in React. They are React's implementation of native browser events; essential a cross browser wrapper that exposed all the properties and functions of the original browser events. So you can pretty much do stuff like `e.preventDefault()` and `e.stopPropagation()`.
 
-I also learned about event pooling and how ReactJs makes use of the `SyntheticEvents` to ensure performance gains. I guess more on that tomorrow.
+I also learned about event pooling and how ReactJs makes use of the `SyntheticEvents` to ensure performance gains. I guess more on that tomorrow (or maybe I'll just learn something new).
 
 Have a great day and checkout [day 18](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-18).
+
+---
+
+## Day 20
+
+### What I worked on
+
+Today, I wanted to learn about React Hooks so I made a little todo list with `useState`. Demo [here](https://todo-react-hooks.netlify.com) and source code [here](https://github.com/vickOnRails/todo-react-hooks)
+
+### A few challenges
+
+None that wasn't easy to fix.
+
+### What I learned
+
+React hooks let you hook (😁) into React's state and component lifecycles without using classes.
+
+`useState` is a react hook. It takes the initial state as an argument and returns the current state and a function to update the state. Here's how we would use `useState`
+
+```js
+//useState must be imported first
+import React, { useState } from "react";
+
+const [text, updateText] = useState("");
+
+// To update the text state
+updateText(newValue);
+```
+
+The parameter `useState` receives must not be a `string`. It could be a string, number etc.
+
+```js
+const [oranges, updateOranges] = setState([]);
+```
+
+It turns out React hooks weren't that difficult after all. Read more about them [here](https://reactjs.org/docs/hooks-intro.html).
+
+Have a great day and checkout [day 19](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-19).
 
 ---
