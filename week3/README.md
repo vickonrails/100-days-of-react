@@ -235,13 +235,13 @@ I felt like I was doing things the wrong way. Maybe everything will seem normal 
 
 ### What I learned
 
-I learned to declare my functions in a more type-safe way. I would declare them like
+I learned to declare my functions in a more type-safe way. I would previously declare them like
 
 ```js
 const doSomething: Function = (arg: any) => {};
 ```
 
-Typescript won't shout at me because it's progressive & a huge part of my previous Typescript code were just `any` typings🤣.
+Typescript wouldn't shout at me because it's progressive. Plus a huge part of my previous Typescript code were just `any` typings🤣.
 
 But here's how I'll do stuff like that now
 
