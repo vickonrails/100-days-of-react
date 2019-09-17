@@ -218,3 +218,39 @@ It turns out React hooks weren't that difficult after all. Read more about them 
 Have a great day and checkout [day 19](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-19).
 
 ---
+
+## Day 21
+
+Today, I spent the whole of my waking time travelling. Absolutely didn't touch React.
+
+## Day 22
+
+### What I worked on
+
+I built a note taking app to learn about styled-components. Github gist of WIP [here](https://gist.github.com/vickOnRails/326b4c13aece41b692acc84554bb7d45).
+
+### A few challenges
+
+I felt like I was doing things the wrong way. Maybe everything will seem normal after a few trys. (Or I could just go back to peaceful CSS land)
+
+### What I learned
+
+I learned to declare my functions in a more type-safe way. I would declare them like
+
+```js
+const doSomething: Function = (arg: any) => {};
+```
+
+Typescript won't shout at me because it's progressive & a huge part of my previous Typescript code were just `any` typings🤣.
+
+But here's how I'll do stuff like that now
+
+```js
+const doSomething: (arg1: string) => void = () => {};
+```
+
+Declaring `functions` like this ensures more type safety. From the function arguments down to the return value.
+
+I think that's cool.
+
+Have a great day and checkout [day 20](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-20).

@@ -46,3 +46,5 @@ Not Today😁 |
 [day 18](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-18) |
 [day 19](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-19) |
 [day 20](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-20) |
+Not Today😁 |
+[day 22](https://github.com/vickOnRails/100-days-of-react/tree/master/week3#day-22)
