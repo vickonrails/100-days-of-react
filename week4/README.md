@@ -2,7 +2,7 @@
 
 ### What I worked on
 
-Completed the little note taking app with styled components and React hooks. Demo [here]() and the github [gist](https://gist.github.com/vickOnRails/f6e6f9edb22b7688602171ed8c9f85b0).
+Completed the little note taking app with styled components and React hooks. Demo [here](https://note-taking-styled.netlify.com/) and the github [gist](https://gist.github.com/vickOnRails/f6e6f9edb22b7688602171ed8c9f85b0).
 
 ### A few challenges
 
