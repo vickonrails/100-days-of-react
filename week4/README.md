@@ -29,3 +29,17 @@ setNotes(prevNotes => [...prevNotes, newNote]);
 
 Nothing I can remember. Styled components still feel strange.
 My next thing is going to be a Medium clone. I hope to learn a whole lot from it. I'd be using styled components (or maybe not), React Router & Typescript.
+
+## Day 24
+
+### What I worked on
+
+Started building the Medium clone. Will share the repo when I get things up.
+
+### A few challenges
+
+Typescript really hates me. Nothing else apart from that.
+
+### What I learned
+
+Nothing today.
