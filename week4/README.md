@@ -34,7 +34,7 @@ My next thing is going to be a Medium clone. I hope to learn a whole lot from it
 
 ### What I worked on
 
-Started building the Medium clone. Will share the repo when I get things up.
+Started building the Medium like clone. Will share the repo when I get things up.
 
 ### A few challenges
 
@@ -44,15 +44,20 @@ Typescript really hates me. Nothing else apart from that.
 
 Nothing today.
 
-## Day 24
+---
+
+## Day 25
 
 ### What I worked on
 
-Continued working on the blog clone. Github repo [here]
+Continued working on the blog clone. Github repo [here](https://github.com/vickOnRails/night-blog)
 
 ### A few challenges
+
 Nothing related to React or Typescript
 
 ### What I learned
 
-Nothing lately. 
+Nothing lately. I think I've gotten the hang of things that I don't learn much new things anymore😎.
+
+---
