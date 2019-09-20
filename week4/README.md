@@ -43,3 +43,16 @@ Typescript really hates me. Nothing else apart from that.
 ### What I learned
 
 Nothing today.
+
+## Day 24
+
+### What I worked on
+
+Continued working on the blog clone. Github repo [here]
+
+### A few challenges
+Nothing related to React or Typescript
+
+### What I learned
+
+Nothing lately. 
