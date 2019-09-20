@@ -285,8 +285,8 @@ I learned about the `switch` component that tells other `Route` components to re
 
 ```js
 <Switch>
-    <Route route="/" component={Home}/>
-    <Route route="/posts" component={Posts}/>
+    <Route path="/" component={Home}/>
+    <Route path="/posts" component={Posts}/>
 </Switch>
 ```
 
