@@ -61,3 +61,68 @@ Nothing related to React or Typescript
 Nothing lately. I think I've gotten the hang of things that I don't learn much new things anymore😎.
 
 ---
+
+## Day 26
+
+### What I worked on
+
+Continued working on the blog clone. Github repo [here](https://github.com/vickOnRails/night-blog) and a WIP live demo [here](https://night-blog.netlify.com/)
+
+### A few challenges
+
+None.
+
+### What I learned
+
+I learned about the `useEffect` hook. It's an effect hook that replaces the `componentDidMount` & `componentWillUpdate` lifecycle methods in class components. This hook takes care of side effects, like API calls etc. Here's a very familiar scenario
+
+```js
+  componentDidMount(){
+    fetch(URL)
+    .then(res=>res.json())
+    .then(jsonRes=>{
+      this.setState(prevState=>{/* set State here */});
+    })
+    .catch(err => {
+      throw err;
+    });
+  }
+```
+
+Here's how we could do the same thing with the `useEffect` hook
+
+```js
+const [posts, setPosts] = useState([]);
+
+useEffect(() => {
+  fetch(URL)
+    .then(res => res.json())
+    .then(jsonRes => {
+      setPosts(jsonRes);
+    })
+    .catch(err => {
+      throw err;
+    });
+}, [posts]);
+```
+
+The `useEffect` in this example takes a function as argument. This function runs on every re-render. It can also take a second parameter, which is an array containing values we want to observe across re-renders. We call `setPosts` to modify the state inside the `useEffect` function.
+
+```js
+const [posts, setPosts] = useState([]);
+
+useEffect(() => {
+  fetch(URL)
+    .then(res => res.json())
+    .then(jsonRes => {
+      setPosts(jsonRes);
+    })
+    .catch(err => {
+      throw err;
+    });
+}, [posts]);
+```
+
+The second argument of `useEffect` is a value from our `useState` function. We want to only execute the function (first argument) when the `post` value changes. Much like what `shouldComponentUpdate` gives us.
+
+---
