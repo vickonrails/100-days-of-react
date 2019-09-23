@@ -54,4 +54,5 @@ Not Today😁 |
 [day 23](https://github.com/vickOnRails/100-days-of-react/tree/master/week4#day-23) |
 [day 24](https://github.com/vickOnRails/100-days-of-react/tree/master/week4#day-24) |
 [day 25](https://github.com/vickOnRails/100-days-of-react/tree/master/week4#day-25) |
-[day 26](https://github.com/vickOnRails/100-days-of-react/tree/master/week4#day-26)|
+[day 26](https://github.com/vickOnRails/100-days-of-react/tree/master/week4#day-26) |
+[day 27](https://github.com/vickOnRails/100-days-of-react/tree/master/week4#day-27) |

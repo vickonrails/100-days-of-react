@@ -74,7 +74,7 @@ None.
 
 ### What I learned
 
-I learned about the `useEffect` hook. It's an effect hook that replaces the `componentDidMount` & `componentWillUpdate` lifecycle methods in class components. This hook takes care of side effects, like API calls etc. Here's a very familiar scenario
+I learned about the `useEffect` hook. It's an effect hook that replaces the `componentDidMount` & `shouldComponentUpdate` lifecycle methods in class components. This hook takes care of side effects, like API calls etc. Here's a very familiar scenario with classes
 
 ```js
   componentDidMount(){
@@ -103,10 +103,10 @@ useEffect(() => {
     .catch(err => {
       throw err;
     });
-}, [posts]);
+});
 ```
 
-The `useEffect` in this example takes a function as argument. This function runs on every re-render. It can also take a second parameter, which is an array containing values we want to observe across re-renders. We call `setPosts` to modify the state inside the `useEffect` function.
+The `useEffect` in this example takes a function as argument. This function runs on every re-render. It can also take a second parameter; an array containing values we want to observe across re-renders. We call `setPosts` to modify the state inside the `useEffect` function.
 
 ```js
 const [posts, setPosts] = useState([]);
@@ -124,5 +124,59 @@ useEffect(() => {
 ```
 
 The second argument of `useEffect` is a value from our `useState` function. We want to only execute the function (first argument) when the `post` value changes. Much like what `shouldComponentUpdate` gives us.
+
+---
+
+## Day 27
+
+### What I worked on
+
+Continued working on the blog. Github repo [here](https://github.com/vickOnRails/night-blog) and a WIP live demo [here](https://night-blog.netlify.com/)
+
+### A few challenges
+
+I thought I could simply lazy load the post images by storing a `loaded` boolean variable in state and rendering a placeholder image or a real one based on the value. I tried this approach
+
+```js
+const [loaded, setLoaded] = useState(false);
+
+axios.get(URL).then(res => {
+  setLoaded(res.data);
+});
+```
+
+In the `post.tsx`
+
+```js
+<article className="article">
+  <div className="article__image">
+    <Link to={link} className="article__image_link">
+      <img
+        //The thumbnail variable contains a url to the original image
+        //Placeholder points to a temporary image
+        //I render either thumnailUrl or Placeholder based on the loaded variable
+        src={loaded ? thumbnailUrl : Placeholder}
+        alt="Some title for the logo"
+        className="article__img"
+      />
+    </Link>
+  </div>
+  <h2 className="article__title">
+    <Link to={link}>{title}</Link>
+  </h2>
+  <p className="article__excerpt">{body.substr(0, 100) + ` ...`}</p>
+  <PostFooter />
+</article>
+```
+
+I assumed this would work, but it doesn't. From what I've found, the axios `promise` returns when the JSON data is downloaded. My JSON just links to a CDN hosting the images. So when the fetch promise is resolved, and `setLoaded` updates the state, everything including the main image gets downloaded at once. This is driving crazy at the moment.
+
+But I thought of another approach. I could possibly render all the posts with the placeholder image when the JSON data arrives. Then on the `load` event (fires when everything on the page has loaded), I could then replace the image `src` with the original ones on the JSON data.
+
+I'll look into that tomorrow
+
+### What I learned
+
+`DOMContentLoaded` event fires when the HTML (Markup has loaded) while `load` fires when everything on the page has loaded: images, fonts, etc. They both fire on the `window` document.
 
 ---
