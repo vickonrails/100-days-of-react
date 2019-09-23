@@ -129,6 +129,20 @@ The second argument of `useEffect` is a value from our `useState` function. We w
 
 ## Day 27
 
+## What I worked on
+
+Cleaned up a few React experiment repositories, also read [Complete guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
+
+## A few challenges
+
+Found it a little difficult to understand the material
+
+## What I learned
+
+React hooks require a different thinking from the way of thinking about state. Still a lot to learn about Hooks.
+
+## Day 28
+
 ### What I worked on
 
 Continued working on the blog. Github repo [here](https://github.com/vickOnRails/night-blog) and a WIP live demo [here](https://night-blog.netlify.com/)
