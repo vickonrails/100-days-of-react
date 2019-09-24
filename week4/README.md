@@ -194,3 +194,37 @@ I'll look into that tomorrow
 `DOMContentLoaded` event fires when the HTML (Markup has loaded) while `load` fires when everything on the page has loaded: images, fonts, etc. They both fire on the `window` document.
 
 ---
+
+## Day 29
+
+### What I worked on
+
+Continued working on the blog. Github repo [here](https://github.com/vickOnRails/night-blog) and a WIP live demo [here](https://night-blog.netlify.com/)
+
+### A few challenges
+
+I solved the lazy loading problem by serving a dummy placeholder image initially, downloading the heavy images only when the site is fully loaded(`load` fires on the `window` object).
+
+```js
+
+const [DOMLoaded, setDOMLoaded] = useState(false);
+
+window.addEventListener('load', ()=> {
+  //When all content loads, load the heavy images
+  setDOMLoaded(true);
+});
+
+
+return (
+  //RealImage and Placeholder are urls to images. Placeholder is a lighter, blurred
+  //that will be replaced when the site loads
+  <img src={DOMLoaded? RealImage : Placeholder}>
+)
+
+```
+
+But there was a serious problem here. If I navigate to `/home` from another page, `load` doesn't fire and the blurred images are not replaced (In essence, `load` is not fired). This makes a whole lot of sense. Because I'm using `react-router`, the `load` event will fire only when the page reloads. 🤦‍
+
+### What I learned
+
+I could solve the above problem by using the higher order componnet `withRouter` that injects router `props` into a component. I could then compare the url and based on that, call the function that handled the `load` event. But...It's easier said than done.
